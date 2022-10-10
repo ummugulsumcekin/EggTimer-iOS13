@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var progressBar: UIProgressView!
     @IBOutlet weak var titleLabel: UILabel!
-    let eggTimes = ["Soft": 3, "Medium": 4, "Hard": 7]
+    let eggTimes = ["Soft": 180, "Medium": 240, "Hard": 420]
     var timer = Timer()
     var player: AVAudioPlayer!
     var totalTime = 0
